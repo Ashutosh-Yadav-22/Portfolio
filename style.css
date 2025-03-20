@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(60, 63, 78);
+    color:white;
+    font-size: 20px;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    width: 90vw;
+    margin: 0 50px;
+}
+li a{
+    color:white;
+    text-decoration: none;
+}
+#h :hover {
+    color: rgb(43, 178, 240);
+}
+i{
+    color:rgb(43, 178, 240) ;
+}
+ul{
+    display:flex;
+    gap: 30px;
+    list-style-type:none;
+}
+main{
+    padding-top: 110px;
+    display: flex;
+    width: 90vw;
+    margin: 50px;
+}
+.aura{
+    color: rgb(43, 178, 240);
+}
+.txt{
+    width: 50%;
+}
+.image{
+    width: 50%;
+}
+.line{
+    border: 5px solid rgb(43, 178, 240);
+    width: 40rem;
+}
+img{
+    position: relative;
+    z-index: 1;
+}
+.bg{
+    position: absolute;
+    text-align: center;
+    border-radius: 4rem 10rem 8rem  17rem;
+    height: 300px;
+    width: 400px;
+    margin: 101px 0 0 90px;
+    background-color:  rgb(43, 178, 240);
+}
+.icon{
+    font-size: 2rem;
+}
